@@ -46,7 +46,6 @@ const Home = () => {
 
   return (
     <div className="home-container">
-      {/* Hero Section - Completely Redesigned */}
       <section className="hero-new">
         <div className="hero-bg-shapes">
           <div className="shape shape-1"></div>
@@ -107,8 +106,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
-      {/* Benefits Bar */}
       <section className="benefits-bar">
         {benefits.map((item, i) => (
           <div key={i} className="benefit-item">
@@ -120,8 +117,6 @@ const Home = () => {
           </div>
         ))}
       </section>
-
-      {/* Apps Grid - Different Design */}
       <section className="apps-section">
         <div className="section-header-new">
           <span className="section-tag">APPLICATIONS</span>
@@ -150,8 +145,6 @@ const Home = () => {
           ))}
         </div>
       </section>
-
-      {/* CTA Section - New Design */}
       <section className="cta-new">
         <div className="cta-card-new">
           <div className="cta-content-new">
