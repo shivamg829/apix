@@ -17,7 +17,6 @@ const About = () => {
 
   return (
     <div className="about-page">
-      {/* Hero Section */}
       <section className="about-hero">
         <div className="about-hero-bg">
           <div className="hero-shape hero-shape-1"></div>
@@ -29,7 +28,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Stats Section */}
       <section className="stats-section">
         <div className="container">
           <div className="stats-grid">
@@ -42,8 +40,6 @@ const About = () => {
           </div>
         </div>
       </section>
-
-      {/* Mission Section */}
       <section className="mission-section">
         <div className="container">
           <Row className="justify-content-center">
@@ -61,8 +57,6 @@ const About = () => {
           </Row>
         </div>
       </section>
-
-      {/* Features Section */}
       <section className="features-section">
         <div className="container">
           <div className="section-header-new">
@@ -81,8 +75,6 @@ const About = () => {
           </div>
         </div>
       </section>
-
-      {/* Tech Stack */}
       <section className="tech-section">
         <div className="container">
           <div className="tech-content">
