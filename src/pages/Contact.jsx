@@ -38,7 +38,6 @@ const Contact = () => {
       ...prev,
       [name]: value
     }))
-    // Clear error for this field
     if (errors[name]) {
       setErrors(prev => ({
         ...prev,
@@ -52,7 +51,6 @@ const Contact = () => {
     const newErrors = validateForm()
     
     if (Object.keys(newErrors).length === 0) {
-      // Simulate form submission
       setShowSuccess(true)
       setFormData({ name: '', email: '', message: '' })
       setTimeout(() => setShowSuccess(false), 5000)
